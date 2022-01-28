@@ -770,6 +770,22 @@ section {
   border-radius: 5px;
 }
 
+
+.discord-text {
+  box-shadow: 0px 0 0px rgba(1, 41, 112, 0.08);
+  margin: 30px;
+  align-items: center;
+  display: flex;
+  background-color: #f6f9ff;
+  text-align: center;
+  font-weight: 700;
+  color: #444;
+}
+
+.discord-text:hover {
+  background-color: #e1ecff;
+}
+
 .services .service-box .icon {
   font-size: 36px;
   padding: 40px 20px;
@@ -903,13 +919,14 @@ section {
   background: #f51f9c;
 }
 
-.services .service-box:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more {
+.services .service-box.pink:hover h3, .services .service-box:hover p, .services .service-box:hover .read-more, .service-box.blue:hover h3, .service-box.green:hover h3, .service-box.orange:hover h3{
   color: #fff;
 }
 
 .services .service-box:hover .icon {
   background: #fff;
 }
+
 
 /*--------------------------------------------------------------
 # Pricing
@@ -937,21 +954,21 @@ section {
 }
 
 .pricing .price {
-  font-size: 36px;
+  font-size: 20px;
   color: #444444;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
 
 .pricing .price sup {
-  font-size: 20px;
+  font-size: 18px;
   top: -15px;
   left: -3px;
 }
 
 .pricing .price span {
   color: #bababa;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
 }
 
