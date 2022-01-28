@@ -172,7 +172,7 @@ section {
 }
 
 .header.header-scrolled {
-  background: #fff;
+  background: rgb(85, 81, 81);
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
 }
@@ -187,6 +187,17 @@ section {
 }
 
 .header .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #012970;
+  font-family: "Nunito", sans-serif;
+  margin-top: 3px;
+}
+
+.header-terms {
+  background: #fff;
+  padding: 20px 0;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
