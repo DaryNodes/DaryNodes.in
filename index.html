@@ -595,7 +595,7 @@
                         <div class="info-box">
                             <i class="bi bi-envelope"></i>
                             <h3>Discord</h3>
-                            <p><a href="https://discord.darynodes.in" , traget="_blank">https://discord.darynodes.in</a>
+                            <p><a href="https://discord.darynodes.in" , target="_blank">https://discord.darynodes.in</a>
                             </p>
                         </div>
                     </div>
@@ -630,12 +630,24 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="offerModalLabel">Limited time offer!</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+              <button type="button" class="close btn btn-danger" onclick="$('#offerModal').modal('hide');" aria-label="close">
+                <span aria-hidden="true">X</span>
               </button>
             </div>
             <div class="modal-body">
-              ...
+                <strong>GET MORE THAN WHAT YOU PAY FOR</strong>
+                <br><br>
+                If your order crosses <i>500 INR</i>, You will get <strong>1 GB RAM, 5 GB STORAGE, 2 BACKUP SLOTS and 1 EXTRA PORT</strong> for <strong>ABSOLUTELY FREE</strong>!
+                <br>
+                If your order crosses <i>1000 INR</i>, You will get <strong>2.5 GB RAM, 20 GB STORAGE, 4 BACKUP SLOTS and 2 EXTRA PORT</strong>  for <strong>ABSOLUTELY FREE</strong>!
+                <br><br>
+                BUY YOUR 24x7 DDoS-PROTECTED SERVER NOW!
+                <br><br>
+                Join our <a href="https://discord.darynodes.in" , target="_blank", onclick="$('#offerModal').modal('hide');">Discord</a> to buy a server!
+                <br>Or, find out more about our pricing and features <a href="#pricing", onclick="$('#offerModal').modal('hide');">here</a>.
+            </div>
+            <div class="modal-footer tiny-text">
+                *Offer valid until stocks last, only on Minecraft Hosting plans.
             </div>
           </div>
         </div>
@@ -655,10 +667,13 @@
     <script src="assets/js/main.js"></script>
 
     <!--Start of Tawk.to Script-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script type="text/javascript">
+        // custom JS
         document.addEventListener("DOMContentLoaded", function() {
-            $('#offerModal').modal({focus:true, show:true})
+            $('#offerModal').modal('show');
         });
+        // tawk.to script
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
         (function () {
             var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
