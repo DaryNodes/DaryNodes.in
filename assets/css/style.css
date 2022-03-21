@@ -2396,3 +2396,7 @@ section {
   font-size: 13px;
   color: #012970;
 }
+
+.tiny-text {
+  font-size: 10px;
+}
